@@ -1,3 +1,24 @@
+.background-primary {
+  background-color: #00040f;
+}
+
+.bg-gradient-black {
+  background: linear-gradient(
+    144.39deg,
+    #ffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.animation-top {
+  transition: .30s ease-in-out;
+}
+
+.animation-top:hover {
+  transform: translateY(-10px);
+}
+
 .App {
   text-align: center;
 }
